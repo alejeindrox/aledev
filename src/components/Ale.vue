@@ -13,9 +13,9 @@
             <li><a href="#page-portfolio" class="link-page">{{ info.menu.portfolio}}</a></li>
             <li><a href="#page-contact" class="link-page">{{ info.menu.contact}}</a></li>
             <li>
-              <img v-if="len" class="lang-page" @click="enProfile" src="/static/img/flags/england.png">
-              <img v-if="lsp" class="lang-page" @click="esProfile" src="/static/img/flags/spain.png">
-              <img v-if="lfr" class="lang-page" @click="frProfile" src="/static/img/flags/france.png">
+              <img v-if="len" class="lang-page" @click="enProfile" src="static/img/flags/england.png">
+              <img v-if="lsp" class="lang-page" @click="esProfile" src="static/img/flags/spain.png">
+              <img v-if="lfr" class="lang-page" @click="frProfile" src="static/img/flags/france.png">
             </li>
           </ul>
         </div>
