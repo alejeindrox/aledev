@@ -56,8 +56,8 @@
           <div class="section-education">
             <h2 class="section-title">{{ info.resume.title }}</h2>
             <div class="resume-buttons header-page-buttons">
-              <a href="#" class="btn btn-default btn-default2"><i class="fa fa-download"></i>&nbsp; {{ info.resume.button }}</a>
-              <a href="#" class="btn btn-default btn-default2 link-page"><i class="fa fa-download"></i>&nbsp;  {{ info.resume.button_two }}</a>
+              <a :href="info.extra.vitae" class="btn btn-default btn-default2"><i class="fa fa-download"></i>&nbsp; {{ info.resume.button }}</a>
+              <a :href="info.extra.waney" class="btn btn-default btn-default2 link-page"><i class="fa fa-download"></i>&nbsp;  {{ info.resume.button_two }}</a>
             </div>
             <h2 class="section-title2"><i class="fa fa-university"></i>&nbsp; {{ info.resume.education.title }}</h2>
             <div class="resume-item" v-for="education in info.resume.education.content">
@@ -97,8 +97,8 @@
           </div>
           <div class="page-footer">
             <div class="resume-buttons">
-              <a href="#" class="btn btn-default btn-default2"><i class="fa fa-download"></i>&nbsp; {{ info.resume.button }}</a>
-              <a href="#" class="btn btn-default btn-default2 link-page"><i class="fa fa-download"></i>&nbsp;  {{ info.resume.button_two }}</a>
+              <a :href="info.extra.vitae" class="btn btn-default btn-default2"><i class="fa fa-download"></i>&nbsp; {{ info.resume.button }}</a>
+              <a :href="info.extra.waney" class="btn btn-default btn-default2 link-page"><i class="fa fa-download"></i>&nbsp;  {{ info.resume.button_two }}</a>
             </div>
             <p class="footer-quote">"{{ info.resume.quote.extract }}" <br/><i>{{ info.resume.quote.name }}</i></p>
           </div>
